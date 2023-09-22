@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Poppins:wght@100&display=swap');
+body{
+    background-color: rgb(34, 8, 58);
+}
+.container{
+    background-color: #E5E4E2;
+    height: 300px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.container{
+    border: none;
+    border-radius: 10px;
+}
+
+.logo{
+    height: 70px;
+    padding-left: 75%;
+}
+.nav-wifi{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+.wifi{
+    height: 45px;
+    rotate: 90deg;
+    transform: translate(-140%,-820%);
+
+}
+
+.emv{
+    height: 80px;
+    margin-left: 15px;
+}
+
+h2{
+    word-spacing: 30px;
+    letter-spacing: 2px;
+    transform: translate(10%,-60px);
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(10%,-68px);
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(72%,-120px);
+}
